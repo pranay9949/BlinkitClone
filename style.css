@@ -62,6 +62,8 @@ color: rgb(0, 0, 0);
 .my-card{
     width: 179px;
     margin:10px;
+    
+    
 }
 .card-time{
     height: 10px;
@@ -183,7 +185,23 @@ table{
 td{
     font-size: 14px;
     color:#666666;
-    padding: 3px 1opx;
+    padding: 3px 10px;
+}
+.last-word{
+    text-align: center;
+    font-size: 15px;
+    color: #666666;
+    font-family: 'Courier New', Courier, monospace;
+     margin-bottom: 100px;
+     margin-top: 20px;
+}
+.my-card:hover{
+    transform: scale(1.1);
+    background-color:azure;
+    
+}
+.my-categories>img:hover{
+    background-color: #666666;
 }
 @media screen and (max-width:768px){
     nav,.row-2,.row-1{
